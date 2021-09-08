@@ -1,0 +1,79 @@
+Skeleton
+
+Header
+Hero Header
+Work
+More Work 
+What can I design
+Experience
+Contact
+Footer
+
+------------------------------------------------------------------------------------------------------------------------------------------
+Complete Structure
+
+-------Home Page-------
+
+Header 
+[Name   |    Work    |    Resume    |    Contact]
+
+Hero Header
+[           Hello]
+[Photo      Name]
+[           About me]
+
+Work
+[3x2 Gallery of Random Designs]
+Button [More work ... {Link to work page}]
+
+What can I design
+[Skills]
+
+Experience
+[Timeline - Freelancing, Internship, Mentorship]
+[----------------------------------------------]
+[Resume button {Link to resume page}]
+
+Contact 
+[Email    Phone no.    Instagram handle    ..Email form..]
+
+Footer
+[Name       Resume]
+[Work       Contact]
+[2021 Copyright]
+
+-------Work Page-------
+
+Header 
+[Name   |    Work(Highlighted)    |    Resume    |    Contact]
+
+Work heading
+[CSS Gallery]
+
+[Wallpapers]
+[Wallpapers Gallery]
+
+[Logo]
+[Logo Gallery]
+
+[Vector Art]
+[Vector Art Gallery]
+
+[Banners]
+[Banners Gallery]
+
+[Posters]
+[Posters Gallery]
+
+--------Resume Page-------
+Header 
+[Name   |    Work    |    Resume(Highlighted)    |    Contact]
+
+[Vertical Timeline of work]
+[Vertical Timeline of Education]
+
+-------Contact--------
+Header 
+[Name   |    Work    |    Resume    |    Contact(Highlighted)]
+
+Email form {Experimental}
