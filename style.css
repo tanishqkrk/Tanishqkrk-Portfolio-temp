@@ -1,5 +1,11 @@
+@media (max-width: 768px) {
+    .hero__block {
+        flex-wrap: wrap;
+    }
+}
+
 html {
-    /* font-size: 100%; */
+    font-size: 100%;
     background-color: #ffffff;
 }
 
@@ -73,12 +79,15 @@ html {
     background-color: yellow;
     color: black;
     transition: 0.5s;
+    font-style: italic;
+    padding-right: 10px;
 }
 
 .hero__creative:hover {
     background-color: white;
     color: #012443;
-    font-style: italic;
+    /* font-style: italic; */
+    font-style: unset;
 }
 
 .hero__block {
