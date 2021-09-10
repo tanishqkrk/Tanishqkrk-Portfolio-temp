@@ -27,28 +27,21 @@ html {
 
 }
 
-.head__creative {
-    background-color: yellow;
-    color: black;
+.header__head--name {
     transition: 0.5s;
+    /* font-size: 100px; */
 }
 
-.head__creative:hover {
-    background-color: white;
-    color: #012443;
-    font-style: italic;
-}
 
 .header__links {
     text-decoration: none;
     color: rgb(112, 112, 112);
     font-size: 180%;
     font-family: 'Montserrat', sans-serif;
-    ;
 }
 
 .header__links:hover {
-    color: black;
+    color: #012443;
 }
 
 .header__head--contact {
@@ -73,13 +66,19 @@ html {
 .hero {
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
-    /* margin: 0px 100px; */
-    /* height: 600px; */
-    /* width: 100%; */
     justify-content: center;
-    /* flex-flow: wrap; */
+}
 
+.hero__creative {
+    background-color: yellow;
+    color: black;
+    transition: 0.5s;
+}
+
+.hero__creative:hover {
+    background-color: white;
+    color: #012443;
+    font-style: italic;
 }
 
 .hero__block {
