@@ -55,13 +55,9 @@ html {
 }
 
 .header__head--name {
+    font-family: 'montserrat', sans-serif;
     transition: 0.5s;
     /* font-size: 100px; */
-}
-
-.header__head--title {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
 }
 
 .header__links {
@@ -321,4 +317,111 @@ html {
 .imgal__morework--button:hover {
     background-color: #012443;
     color: white;
+}
+
+.filler2 {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    margin: 50px 0;
+    height: 80px;
+    padding: 25px;
+    align-items: flex-end;
+    /* border: 1px solid red; */
+}
+
+.filler2__line {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 120%;
+    opacity: 50%;
+}
+
+.design {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.design__skills {
+    display: grid;
+    width: 80%;
+    text-align: center;
+    justify-content: space-evenly;
+    grid-gap: 2rem;
+    grid-template-areas:
+        'advertisements smcontent illustrations vectorarts'
+        'card magazines coverpages posters'
+        'logo flyers banners wallpapers';
+}
+
+.design__logo {
+    grid-area: logo;
+}
+
+.design__flyers {
+    grid-area: flyers;
+}
+
+.design__banners {
+    grid-area: banners;
+}
+
+.design__wallpapers {
+    grid-area: wallpapers;
+}
+
+.design__magazines {
+    grid-area: magazines;
+}
+
+.design__coverpages {
+    grid-area: coverpages;
+}
+
+.design__posters {
+    grid-area: posters;
+}
+
+.design__vectorarts {
+    grid-area: vectorarts;
+}
+
+.design__advertisements {
+    grid-area: advertisements;
+}
+
+.design__smcontent {
+    grid-area: smcontent;
+}
+
+.design__illustrations {
+    grid-area: illustrations;
+}
+
+.design__busicard {
+    grid-area: card;
+}
+
+
+.design__can {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 400%;
+    color: #012443;
+}
+
+.design__skills {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 150%;
+    /* transition: 0.3s; */
+}
+
+.design__skills {
+    /* background-color: red; */
+    /* padding: 20px; */
 }
