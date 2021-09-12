@@ -542,6 +542,11 @@ html {
 
 .design__lotmore {
     padding: 3% 0;
+    transition: .3s;
+}
+
+.design__lotmore:hover {
+    padding: 0 0 5% 0;
 }
 
 .design__lotmore--text {
