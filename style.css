@@ -282,6 +282,9 @@ html {
 
 .img7 {
     grid-area: img7;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 
@@ -348,62 +351,172 @@ html {
 
 .design__skills {
     display: grid;
-    width: 80%;
+    /* display: flex; */
+    width: 100%;
     text-align: center;
     justify-content: space-evenly;
-    grid-gap: 2rem;
+    /* grid-gap: 1rem; */
     grid-template-areas:
-        'advertisements smcontent illustrations vectorarts'
         'card magazines coverpages posters'
+        'advertisements smcontent illustrations vectorarts'
         'logo flyers banners wallpapers';
 }
 
 .design__logo {
     grid-area: logo;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__logo:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__flyers {
     grid-area: flyers;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
 }
+
+.design__flyers:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+}
+
 
 .design__banners {
     grid-area: banners;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__banners:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__wallpapers {
     grid-area: wallpapers;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__wallpapers:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__magazines {
     grid-area: magazines;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__magazines:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__coverpages {
     grid-area: coverpages;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__coverpages:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__posters {
     grid-area: posters;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__posters:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__vectorarts {
     grid-area: vectorarts;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__vectorarts:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__advertisements {
     grid-area: advertisements;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__advertisements:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__smcontent {
     grid-area: smcontent;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__smcontent:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__illustrations {
     grid-area: illustrations;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__illustrations:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 .design__busicard {
     grid-area: card;
+    transition: 0.3s;
+    padding: 9%;
+    margin: 0%;
+}
+
+.design__busicard:hover {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
 }
 
 
@@ -424,4 +537,14 @@ html {
 .design__skills {
     /* background-color: red; */
     /* padding: 20px; */
+}
+
+.design__lotmore {
+    padding: 3% 0;
+}
+
+.design__lotmore--text {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 150%;
 }
