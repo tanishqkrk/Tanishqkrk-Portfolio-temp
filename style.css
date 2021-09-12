@@ -298,6 +298,7 @@ html {
 
 .imgal__img:hover {
     box-shadow: 10px 10px 30px black;
+    transform: scale(.9);
 }
 
 .imgal__morework {
