@@ -373,6 +373,8 @@ html {
         'logo flyers banners wallpapers';
 }
 
+
+
 .design__logo {
     grid-area: logo;
     transition: 0.3s;
@@ -548,6 +550,7 @@ html {
 .design__skills {
     /* background-color: red; */
     /* padding: 20px; */
+    user-select: none;
 }
 
 .design__lotmore {
