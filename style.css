@@ -261,13 +261,20 @@ html {
     margin: 1%;
     /* padding: 0; */
     width: 30%;
+    opacity: 25%;
     /* transform: scale(.5); */
     height: auto;
-    /* transition: .5s; */
+    transition: .5s;
     /* scroll-behavior: smooth; */
     /* position: sticky; */
     /* box-sizing: content-box; */
 }
+
+.imgal__img:hover {
+    opacity: 100%;
+}
+
+
 
 .imgal__morework {
     display: flex;
@@ -346,12 +353,14 @@ html {
     font-weight: 100;
     transition: 0.3s;
     user-select: none;
+    font-style: italic;
 }
 
 .design__skill:hover {
     transform: scale(1.5);
-    font-weight: 500;
+    font-weight: 700;
     z-index: 2;
+    font-style: inherit;
 }
 
 .design__lotmore {
