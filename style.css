@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    user-select: none;
 }
 
 @media (max-width: 768px) {
@@ -315,212 +316,51 @@ html {
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
+    /* width: 100%; */
+    /* border: 1px solid red; */
 }
 
 .design__skills {
-    display: grid;
-    /* display: flex; */
+    /* display: grid; */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     text-align: center;
     justify-content: space-evenly;
     /* grid-gap: 1rem; */
-    grid-template-areas:
-        'card magazines coverpages posters'
-        'advertisements smcontent illustrations vectorarts'
-        'logo flyers banners wallpapers';
+    /* width: 100%; */
 }
-
-
-
-.design__logo {
-    grid-area: logo;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__logo:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__flyers {
-    grid-area: flyers;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__flyers:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-
-.design__banners {
-    grid-area: banners;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__banners:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__wallpapers {
-    grid-area: wallpapers;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__wallpapers:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__magazines {
-    grid-area: magazines;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__magazines:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__coverpages {
-    grid-area: coverpages;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__coverpages:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__posters {
-    grid-area: posters;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__posters:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__vectorarts {
-    grid-area: vectorarts;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__vectorarts:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__advertisements {
-    grid-area: advertisements;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__advertisements:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__smcontent {
-    grid-area: smcontent;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__smcontent:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__illustrations {
-    grid-area: illustrations;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__illustrations:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
-.design__busicard {
-    grid-area: card;
-    transition: 0.3s;
-    padding: 9%;
-    margin: 0%;
-}
-
-.design__busicard:hover {
-    font-family: 'montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 200%;
-}
-
 
 .design__can {
     font-family: 'montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 400%;
-    color: #012443;
+    font-size: 500%;
+    /* width: 100% */
 }
 
-.design__skills {
+.design__skill {
+    font-size: 200%;
+    /* padding: 3%; */
+    margin: 4%;
     font-family: 'montserrat', sans-serif;
-    font-weight: 300;
-    font-size: 150%;
-    /* transition: 0.3s; */
-}
-
-.design__skills {
-    /* background-color: red; */
-    /* padding: 20px; */
+    font-weight: 100;
+    transition: 0.3s;
     user-select: none;
 }
 
-.design__lotmore {
-    padding: 3% 0;
-    transition: .3s;
+.design__skill:hover {
+    transform: scale(1.5);
+    font-weight: 500;
+    z-index: 2;
 }
 
-.design__lotmore:hover {
-    padding: 0 0 5% 0;
+.design__lotmore {
+    padding-bottom: 5%;
 }
+
 
 .design__lotmore--text {
     font-family: 'montserrat', sans-serif;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 150%;
 }
