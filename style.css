@@ -27,6 +27,7 @@ html {
 .header {
     background-color: #ffffff;
     display: flex;
+    /* width: 100%; */
     /* justify-content: center; */
     /* height: 50px; */
     flex-direction: column;
@@ -35,12 +36,13 @@ html {
     padding: 10px 0;
     position: sticky;
     top: 0%;
-    z-index: 1;
+    z-index: 2;
     box-shadow: 1px 1px 15px rgb(219, 219, 219);
     /* border: 1px solid red; */
 }
 
 .header__head {
+    /* width: 100%; */
     display: flex;
     justify-content: space-between;
     padding: 0 10%;
@@ -229,6 +231,7 @@ html {
     display: flex;
     flex-direction: column;
     /* border-radius: 15px; */
+    padding: 0 5%;
 }
 
 .imgal__head {
@@ -243,72 +246,34 @@ html {
     opacity: 80%;
 }
 
-.column {
-    /* border: 1px solid red; */
-    width: 80%;
-    /* height: 50%; */
-    align-items: flex-start;
+.imgal__gallery {
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
     justify-content: center;
-    padding: 0 9.5%;
-    padding-top: 0px;
-    /* margin: 10px; */
-    display: grid;
-    grid-template-areas:
-        'img3 img3 img1'
-        'img2 img4 img6'
-        'img5 img5 img7';
-    grid-gap: 0.5rem;
+    /* padding: 0 2%; */
 }
-
-.img1 {
-    grid-area: img1;
-}
-
-.img2 {
-    grid-area: img2;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.img3 {
-    grid-area: img3;
-}
-
-.img4 {
-    grid-area: img4;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-.img5 {
-    grid-area: img5;
-}
-
-.img6 {
-    grid-area: img6;
-}
-
-.img7 {
-    grid-area: img7;
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
 
 .imgal__img {
-    max-width: 100%;
-    /* padding: 15px; */
-    /* margin: 15px; */
-    border-radius: 20px;
-    transition: 0.5s;
+    flex: 1;
+    object-fit: cover;
+    margin: 1%;
+    padding: 0;
+    width: 20%;
+    /* transform: scale(.5); */
+    /* height: auto; */
+    transition: .5s;
+    /* scroll-behavior: smooth; */
+    position: sticky;
+    /* box-sizing: content-box; */
 }
 
 .imgal__img:hover {
-    box-shadow: 10px 10px 30px black;
-    transform: scale(.9);
+    /* box-shadow: 5px 5px 15px black; */
+    /* transform: scale(1.2); */
+    object-fit: contain;
+    z-index: 1;
+    width: 50%;
 }
 
 .imgal__morework {
