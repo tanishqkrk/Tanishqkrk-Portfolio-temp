@@ -18,12 +18,9 @@
 
 html {
     font-size: 100%;
-    background-color: #ffffff;
+    background-color: #ffffff
 }
 
-.body {
-    background-color: white;
-}
 
 .header {
     background-color: #ffffff;
@@ -340,7 +337,7 @@ html {
     padding: 0;
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 80%;
     text-align: center;
     justify-content: space-evenly;
     /* grid-gap: 1rem; */
@@ -349,8 +346,12 @@ html {
 
 .design__can {
     font-family: 'montserrat', sans-serif;
+    color: #012443;
     font-size: 500%;
-    /* width: 100% */
+    font-weight: 900;
+    width: 100%;
+    text-align: center;
+
 }
 
 .design__skill {
@@ -363,11 +364,12 @@ html {
     transition: 0.3s;
     user-select: none;
     font-style: italic;
+    color: #012443;
 }
 
 .design__skill:hover {
     transform: scale(1.5);
-    font-weight: 700;
+    font-weight: 500;
     z-index: 2;
     font-style: inherit;
 }
@@ -381,4 +383,84 @@ html {
     font-family: 'montserrat', sans-serif;
     font-weight: 900;
     font-size: 150%;
+    color: #012443;
+}
+
+.exp {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    /* justify-content: space-evenly; */
+}
+
+.exp__head--text {
+    text-align: center;
+    font-family: 'montserrat', sans-serif;
+    font-size: 400%;
+    padding-bottom: 5%;
+    font-weight: 700;
+    color: #012443;
+}
+
+.exp__line {
+    width: 100%;
+    height: 1px;
+    background-color: #686868;
+    position: relative;
+}
+
+.exp__dot {
+    padding: 2px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #012443;
+    /* z-index: 2; */
+    /* border: 1px solid green; */
+
+}
+
+.exp__work {
+    /* border: 1px solid #012443; */
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 4%;
+    /* top: -10px; */
+    font-family: 'montserrat', sans-serif;
+    color: rgb(139, 139, 139);
+    transition: .3s;
+}
+
+.exp__work:hover {
+    color: #012443;
+    font-weight: 600;
+}
+
+.exp__free {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.9%;
+    /* right: -10px; */
+}
+
+.exp__intern {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.9%;
+}
+
+.exp__mentor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33.9%;
+}
+
+.exp__year,
+.exp__work {}
+
+.exp__year {
+    font-size: 250%;
 }
