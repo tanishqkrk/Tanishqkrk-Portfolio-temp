@@ -1,24 +1,10 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     user-select: none;
     font-family: 'montserrat', sans-serif;
+    /* width: 100%; */
 }
-
-@media (max-width: 768px) {
-    .hero__block {
-        flex-wrap: wrap;
-    }
-
-    .header__head {
-        flex-wrap: wrap;
-    }
-}
-
-.test {
-    background-color: red;
-}
-
 
 
 html {
@@ -31,7 +17,7 @@ html {
 #header {
     background-color: #ffffff;
     display: flex;
-    /* width: 100%; */
+    width: 100%;
     /* justify-content: center; */
     /* height: 50px; */
     flex-direction: column;
@@ -46,10 +32,10 @@ html {
 }
 
 .header__head {
-    /* width: 100%; */
+    /* width: 80%; */
     display: flex;
-    justify-content: space-between;
-    padding: 0 10%;
+    justify-content: space-around;
+    /* padding: 0 10%; */
     /* width: 100%; */
     align-items: center;
     /* border: 1px solid black; */
@@ -72,11 +58,11 @@ html {
 
 .header__link {
     display: flex;
-    width: 25%;
-    justify-content: space-evenly;
+    width: 10%;
+    justify-content: space-around;
     align-items: center;
     /* margin: 0 150px; */
-    padding-left: 18%;
+    /* padding-left: 18%; */
     /* border: 1px solid black; */
 
 }
@@ -84,6 +70,7 @@ html {
 .header__head--name {
     font-family: 'montserrat', sans-serif;
     transition: 0.5s;
+    /* flex: 2; */
     /* font-size: 100px; */
 }
 
@@ -122,6 +109,7 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    /* height: 100%; */
 }
 
 .hero__creative {
@@ -150,6 +138,7 @@ html {
     justify-content: space-evenly;
     border-radius: 15px;
     padding: 1% 0;
+    height: 550px;
     /* flex-flow: wrap; */
     /* flex-wrap: wrap; */
 }

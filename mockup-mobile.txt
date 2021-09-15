@@ -1,0 +1,46 @@
+Skeleton
+
+Header
+Hero img
+Work
+More Work 
+What can I design
+Experience
+Contact
+Footer
+
+Header
+[Name   |   Hamburger menu]
+              Work
+              resume
+              Contact
+              Social links
+
+Hero img
+[   Photo       ]
+[   Headline    ]
+[   About me    ]
+
+Work
+3x3 Square Gallery
+[Images expand when clicked and image slider appears]
+
+What can i design
+4x3 list of Skills without the hover zoom
+
+Experience
+Vertical timeline
+|   Freelancing
+|
+|
+|   Internship
+|   
+|
+|   Mentorship
+|
+
+Contact
+[Contact card]
+
+Footer
+[smaller version of desktop footer]
